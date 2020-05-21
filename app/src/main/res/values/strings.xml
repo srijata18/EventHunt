@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EventHunt</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_movies">Movies</string>
+    <string name="menu_you">You</string>
+    <string name="user_name">User Name</string>
+    <string name="user_email">User Email</string>
+    <string name="helpline">All our agents are busy now. Kindly contact helpline +112233</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="nodata">Sorry ! No Events Found...</string>
+    <string name="nointernet">No internet connection available</string>
+    <string name="to_be_added">Functionality to be added</string>
+    <string name="notification">No new notification</string>
+    <string name="emptyList">No events are found currently.... Hold tight for upcoming events!!</string>
+    <string name="thingsToDo">Things To Do</string>
+    <string name="featuredEvents">Featured Events</string>
+    <string name="comedy">Comedy</string>
+    <string name="music">Music</string>
+    <string name="workshops">Workshops</string>
+    <string name="online_course">Online Course</string>
+    <string name="talks">Talks</string>
+    <string name="browse">Browse events by genre</string>
+    <string name="view_all">View All</string>
+</resources>
