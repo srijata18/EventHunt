@@ -84,7 +84,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/tv_FeaturedEvents"
                     android:orientation="horizontal"
                     tools:itemCount="1"
-                    tools:listitem="@layout/row_item_events_horizontal"/>
+                    tools:listitem="@layout/row_item_events"/>
 
                 <TextView
                     android:id="@+id/tv_comedy"
@@ -114,7 +114,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/tv_comedy"
                     android:orientation="horizontal"
                     tools:itemCount="1"
-                    tools:listitem="@layout/row_item_events_horizontal"/>
+                    tools:listitem="@layout/row_item_events"/>
                 <TextView
                     android:id="@+id/tv_music"
                     android:layout_width="@dimen/dimen_0dp"
@@ -143,7 +143,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/tv_music"
                     android:orientation="horizontal"
                     tools:itemCount="1"
-                    tools:listitem="@layout/row_item_events_horizontal"/>
+                    tools:listitem="@layout/row_item_events"/>
                 <TextView
                     android:id="@+id/tv_workshops"
                     android:layout_width="@dimen/dimen_0dp"
@@ -172,7 +172,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/tv_workshops"
                     android:orientation="horizontal"
                     tools:itemCount="1"
-                    tools:listitem="@layout/row_item_events_horizontal"/>
+                    tools:listitem="@layout/row_item_events"/>
 
                 <TextView
                     android:id="@+id/tv_onlineCoarse"
@@ -202,7 +202,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/tv_onlineCoarse"
                     android:orientation="horizontal"
                     tools:itemCount="1"
-                    tools:listitem="@layout/row_item_events_horizontal"/>
+                    tools:listitem="@layout/row_item_events"/>
 
                 <TextView
                     android:id="@+id/tv_talks"
@@ -234,7 +234,7 @@
                     android:layout_marginBottom="@dimen/dimen_100dp"
                     android:orientation="horizontal"
                     tools:itemCount="1"
-                    tools:listitem="@layout/row_item_events_horizontal"/>
+                    tools:listitem="@layout/row_item_events"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout

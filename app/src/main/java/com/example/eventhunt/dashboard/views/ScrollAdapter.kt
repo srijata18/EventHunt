@@ -1,22 +1,15 @@
 package com.example.eventhunt.dashboard.views
 
 import android.content.Context
-import android.graphics.Bitmap
-import android.graphics.drawable.BitmapDrawable
-import android.graphics.drawable.Drawable
-import android.os.Build
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.bumptech.glide.request.animation.GlideAnimation
-import com.bumptech.glide.request.target.SimpleTarget
 import com.example.eventhunt.R
 import com.example.eventhunt.dashboard.dataModel.FeaturedModel
-import kotlinx.android.synthetic.main.row_item_events_horizontal.view.*
+import kotlinx.android.synthetic.main.row_item_events.view.*
 
 
 class ScrollAdapter(private val list : ArrayList<FeaturedModel>?,
@@ -80,7 +73,7 @@ class ScrollAdapter(private val list : ArrayList<FeaturedModel>?,
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-        val view  = LayoutInflater.from(parent.context).inflate(R.layout.row_item_events_horizontal, parent, false)
+        val view  = LayoutInflater.from(parent.context).inflate(R.layout.row_item_events, parent, false)
         return ChildAdapterViewHolder(view)
     }
 
