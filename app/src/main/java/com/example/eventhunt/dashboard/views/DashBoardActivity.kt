@@ -38,9 +38,8 @@ import javax.inject.Inject
 import kotlin.collections.ArrayList
 
 /*
-* Launching activity, which is resonsible for displaying the list of restaurants based on the
-* user requirements. Search functionality is also added which can enhance the users need for  a
-* particular restaurant.
+* Launching activity, which is resonsible for displaying the list of events based on the
+* user requirements.
 * */
 class DashBoardActivity : BaseActivity<ActivityMainBinding, DashboardViewModel>(),
     ItemSelected {
@@ -250,21 +249,6 @@ class DashBoardActivity : BaseActivity<ActivityMainBinding, DashboardViewModel>(
     }
 
     private fun hideShowAllViews(value : Int){
-        /*layout_emptystate?.visibility = value
-        tv_thingsToDo?.visibility = value
-        rv_thingsToDo?.visibility = value
-        tv_FeaturedEvents?.visibility = value
-        rv_FeaturedEvents?.visibility = value
-        tv_comedy?.visibility = value
-        rv_comedy?.visibility = value
-        tv_music?.visibility = value
-        rv_music?.visibility = value
-        tv_workshops?.visibility = value
-        rv_workshops?.visibility = value
-        tv_onlineCoarse?.visibility = value
-        rv_onlineCoarse?.visibility = value
-        tv_talks?.visibility = value
-        rv_talks?.visibility = value        */
         main_container?.visibility = value
     }
 
